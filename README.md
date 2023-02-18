@@ -1,5 +1,7 @@
 
-##CRM Django + React.js Sistema de información para la gestión, atención y servicio al cliente; para el seguimiento y entrega de medicamentos según ordenes médicas.
+##CRM Django With React.js 
+
+Sistema de información para la gestión, atención y servicio al cliente; para el seguimiento y entrega de medicamentos según ordenes médicas.
 
 
 
