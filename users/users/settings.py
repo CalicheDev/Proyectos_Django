@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
+#Comentar este codigo en caso de no poder acceder a la api user_api desde el servidor django
 """ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.TokenAuthentication',
