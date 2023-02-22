@@ -20,6 +20,30 @@ Configuracion del BackEnd en Django y el FrontEnd en React.Js
 -Correr el servidor de Django: python manage.py runserver.
 -En otra terminal, moverse a la carpeta frontend y ejecutar npm install para instalar las dependencias de React.
 -Ejecutar npm start para iniciar el servidor de desarrollo de React.
+-Instalar la libreria axios para poder conectarse a la base de datos y al backend Dejango
+-Instalar la libreria la biblioteca js-cookie para almacenar y recuperar un valor en una cookie en este caso el inicio de sesion
+-Instalar la libreria la libreria 'jsonwebtoken' npm install jsonwebtoken. Se puede importar de dos formas: import jwt from 'jsonwebtoken'; o const jwt = require('jsonwebtoken')
+-Instalar la libreria la libreria 'buffer' npm install buffer. Buffer es una API que viene incluida en Node.js para utilizarla en una aplicación de React en el navegador
+
+
+
+## Biblioteca js-cookie
+1. Instala la biblioteca js-cookie utilizando npm o yarn:
+npm install js-cookie
+yarn add js-cookie
+
+2. En el componente donde quieras utilizar cookies, importa la biblioteca:
+import Cookies from 'js-cookie';
+
+3. Para establecer una cookie, puedes utilizar el siguiente código:
+Cookies.set('cookie_name', 'cookie_value');
+
+4. Para recuperar el valor de una cookie, puedes utilizar el siguiente código:
+const cookieValue = Cookies.get('cookie_name');
+
+5. Para eliminar una cookie, puedes utilizar el siguiente código:
+Cookies.remove('cookie_name');
+
 
 API
 La API cuenta con dos endpoints:
